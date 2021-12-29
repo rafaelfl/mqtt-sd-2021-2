@@ -1,0 +1,15 @@
+{
+  "name": "mqtt-sd-2021-2",
+  "version": "1.0.0",
+  "main": "src/sub.js",
+  "repository": "https://github.com/rafaelfl/mqtt-sd-2021-2.git",
+  "author": "Rafael Fernandes Lopes <rafael.fernandes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "pub": "node src/pub.js",
+    "sub": "node src/sub.js"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.1"
+  }
+}
